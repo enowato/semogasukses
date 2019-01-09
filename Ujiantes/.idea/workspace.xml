@@ -103,6 +103,7 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <file leaf-file-name="login.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
@@ -111,6 +112,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
 >>>>>>> master
           <provider selected="true" editor-type-id="android-designer2">
+=======
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2">
+>>>>>>> Stashed changes
 =======
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
@@ -3052,11 +3058,15 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
 =======
       <window_info active="true" anchor="right" id="Preview" visible="true" weight="0.32970452" />
+=======
+      <window_info anchor="right" id="Preview" weight="0.32970452" />
+>>>>>>> Stashed changes
 =======
       <window_info anchor="right" id="Preview" weight="0.32970452" />
 >>>>>>> Stashed changes
@@ -3069,11 +3079,15 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Build" visible="true" weight="0.32843137" />
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
+>>>>>>> Stashed changes
 =======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
 >>>>>>> Stashed changes
@@ -3107,12 +3121,17 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login.xml">
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
 >>>>>>> master
       <provider selected="true" editor-type-id="android-designer2">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/comment.xml">
+      <provider editor-type-id="android-designer2">
+>>>>>>> Stashed changes
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/comment.xml">
       <provider editor-type-id="android-designer2">
@@ -3124,9 +3143,13 @@
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/comment.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/commentview.xml">
+>>>>>>> Stashed changes
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/commentview.xml">
 >>>>>>> Stashed changes
