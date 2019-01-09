@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\ryanm\\Desktop\\semogasukses\\Ujiantes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ryanm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4eeace57a927c197235b522c9de6fe95\\res\\values-v23\\values-v23.xml",
+=======
+            "outputFile": "C:\\Users\\eno\\Documents\\proje\\semogasukses\\Ujiantes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2cb5fca58dfa80db5069bee1ef4a8be3\\res\\values-v23\\values-v23.xml",
+>>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +22,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ryanm\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\a632d7cf7cfed7de690a4eb4dbcf6834\\res\\values-v23\\values-v23.xml",
+=======
+                    "source": "C:\\Users\\eno\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\4d426fe816906e45db56727c613c0ce2\\res\\values-v23\\values-v23.xml",
+>>>>>>> master
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

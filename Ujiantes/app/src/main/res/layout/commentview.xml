@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:text="tess nama"
                 android:textColor="#000000"
-                android:textSize="35px"
+                android:textSize="37px"
                 android:textStyle="bold"/>
 
             <TextView
