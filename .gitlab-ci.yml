@@ -1,0 +1,26 @@
+image: dotlabs/android-sdk
+
+before_script:
+- export GRADLE_USER_HOME=$(pwd)/.gradle
+- export CI_NOW=$(date +%Y-%m-%d-%H%M%S)
+- chmod +x ./gradlew
+
+cache:
+  paths:
+  - .gradle/
+
+stages:
+  - build
+  - deploy
+
+build_release:
+  stage: build
+  tags:
+    - dot
+  script:
+    - ./gradlew assembleRelease
+    - mkdir -p apk/ && cp app/build/outputs/apk/dev/release/*.apk apk/$CI_PROJECT_NAME-$CI_COMMIT_SHORT_SHA-$CI_NOW.apk
+    #- curl -X POST --data-urlencode "payload={\"channel\":\"#smikms\",\"username\":\"GitLab-bot\", \"text\":\"App ${CI_PROJECT_NAME} telah berhasil dibuild. Silakan cek di https://gitlab.com/pt-dot-internal/${CI_PROJECT_NAME}/-/jobs/${CI_JOB_ID}/artifacts/browse/apk atau tunggu beberapa saat akan tersedia di deploygate\", \"icon_emoji\":\":heavy_check_mark:\"}" ${NOTIFICATION_URL}
+  artifacts:
+    paths:
+    - apk/
